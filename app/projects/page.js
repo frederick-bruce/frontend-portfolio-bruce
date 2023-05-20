@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
+import PersonalProjects from "@/components/Portfolio/PersonalProjects";
+import ProfessionalProjects from "@/components/Portfolio/ProfessionalProjects";
+import projectsData from "@/components/Portfolio/projectsData";
+import "@/styles/globals.css";
 
-const page = () => {
+const Portfolio = () => {
+  const personalProjects = projectsData.filter(
+    (project) => project.category === "personal"
+  );
+  const professionalProjects = projectsData.filter(
+    (project) => project.category === "professional"
+  );
+
   return (
-    <div>projects</div>
-  )
-}
+    <div
+      className="portfolio container flex mt-5 justify-evenly"
+    >
+      <PersonalProjects projects={personalProjects} />
+      <ProfessionalProjects projects={professionalProjects} />
+    </div>
+  );
+};
 
-export default page
+export default Portfolio;

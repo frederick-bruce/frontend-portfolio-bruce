@@ -17,6 +17,9 @@ module.exports = {
         background: "#D8E3E7",
       },
     },
+    container: {
+      center: true,
+    },
   },
   variants: {},
   plugins: [],

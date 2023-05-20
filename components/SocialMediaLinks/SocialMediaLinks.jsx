@@ -1,4 +1,4 @@
-import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
+import { RiGithubFill, RiLinkedinFill, RiMailFill } from "react-icons/ri";
 
 const SocialMediaLinks = () => {
   const socialMediaLinks = [
@@ -11,6 +11,11 @@ const SocialMediaLinks = () => {
       platform: "GitHub",
       icon: RiGithubFill,
       link: "https://github.com/",
+    },
+    {
+      platform: "Email",
+      icon: RiMailFill,
+      link: "mailto:contact@frederickbruce.me"
     },
   ];
 

@@ -20,4 +20,15 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
+/* Icons */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.icon-container img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}

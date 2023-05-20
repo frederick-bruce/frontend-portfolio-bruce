@@ -1,7 +1,8 @@
-import "./globals.css";
+import HomePage from "@/components/HomePage/HomePage";
 export default function Home() {
   return (
-<></>
-  
+    <>
+      <HomePage />
+    </>
   );
 }

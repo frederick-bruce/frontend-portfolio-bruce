@@ -11,9 +11,9 @@ module.exports = {
         current: "current",
       },
       colors: {
-        primary: "#51C4D3",
+        primary: "#132C33",
         secondary: "#126E82",
-        accent: "#132C33",
+        accent: "#51C4D3",
         background: "#D8E3E7",
       },
     },

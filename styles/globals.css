@@ -21,7 +21,7 @@
 
 .about-title {
   font-weight: bold;
-  margin: 3rem;
+  margin: 1rem;
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -40,23 +40,29 @@ body {
 }
 
 .caption {
-  position: absolute;
-  bottom: 5;
-  left: 0;
+  font-size: large;
+  font-weight: 600;
   width: 100%;
   color: #132c33;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
 }
 
-.star-icon {
-  font-size: 10px;
-  color: #ffcd3c;
+.star-icon:hover {
+  animation: spin 1s infinite linear;
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 .about-heading {
   font-size: 24px;
@@ -70,12 +76,6 @@ body {
   margin-bottom: 30px;
 }
 
-
-
-
-
-
-
 /* Icons */
 .icon-container {
   display: flex;
@@ -86,7 +86,6 @@ body {
 .icon-container img {
   width: 40px;
   height: 40px;
-  margin: 10px;
 }
 
 /* Portfolio */
@@ -155,3 +154,7 @@ body {
 .professional-projects {
   margin-bottom: 3rem;
 }
+
+
+/* Project Page */
+

@@ -9,7 +9,6 @@ const Contact = () => {
   return (
     <div className="w-full flex">
       <div className="max-w-[1240px] m-auto my-12 w-full">
-       
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-secondary rounded-xl p-4">
@@ -31,7 +30,9 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8 text-secondary text-lg">Connect With Me</p>
+                <p className="uppercase pt-8 text-secondary text-lg">
+                  Connect With Me
+                </p>
                 <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/frederickbruce/"
@@ -63,9 +64,12 @@ const Contact = () => {
                   </div>
                 </div>
                 <figcaption className="uppercase caption tracking-widest text-primary mt-20">
-            Designing the future, one&nbsp; <span className="star-icon"><AiFillStar color="#51C4D3" size={32} /></span>{" "}
-            &nbsp;at a time.
-          </figcaption>
+                  Designing the future, one&nbsp;{" "}
+                  <span className="star-icon">
+                    <AiFillStar color="#51C4D3" size={32} />
+                  </span>{" "}
+                  &nbsp;at a time.
+                </figcaption>
               </div>
             </div>
           </div>

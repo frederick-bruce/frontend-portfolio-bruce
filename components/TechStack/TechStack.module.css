@@ -1,6 +1,5 @@
 .iconContainer {
-  display: flex; 
+  display: flex;
   justify-content: space-around;
   margin-top: 30px;
 }
-
